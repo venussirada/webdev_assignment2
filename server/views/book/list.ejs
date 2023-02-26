@@ -24,11 +24,12 @@
             <%}else{%>
                 <th class="text-center col-2">Name</th>
             <th class="text-center col-2">Number</th>
-            <th class="text-center col-1">Email</th>
-           
-            
+            <th class="text-center col-1">Email</th> 
             <%}%>
             </tr>
+
+            <% BookList.sort((a, b) => a.name.localeCompare(b.name)).forEach((contact) => { %>
+              <% }); %>
             <%for(let count = 0; count < BookList.length; count ++){%>
                 <tr>
                   <%if(typeof displayName =='string'&&displayName){%>
