@@ -1,3 +1,8 @@
+//Filename: Assignment1
+//Student Name: Sirada Thoungvitayasutee
+//Student ID: 301292632
+//Date 26 Feb 2023-->
+
 let mongoose = require('mongoose');
 let booksModel = mongoose.Schema({
     name: String,
