@@ -1,0 +1,35 @@
+<!--Filename: Assignment1
+Student Name: Sirada Thoungvitayasutee
+Student ID: 301292632
+Date 12 Feb 2023-->
+<!--Login page information-->
+<% if(title=="Login"){%>
+
+  <main class="container my-5">
+    <div class="jumbotron">
+     <h1 class="display-4 text-center"><b>Login</b></h1>
+      <div class="text-center">
+      </div>
+      <form class="mx-5" action="/home" method="post">
+
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username">
+          </div>
+          <div class="form-group" style="margin-bottom: 10px;">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+
+
+          
+          <a class="btn btn-outline-primary" href="contact">
+            Login
+          </a>
+          
+
+      </form>
+    </div>
+  </main> 
+<%}else{%>
+<%}%>
